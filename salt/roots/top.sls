@@ -1,0 +1,5 @@
+base:
+    '*':
+        - unzip
+        - java
+        - activator

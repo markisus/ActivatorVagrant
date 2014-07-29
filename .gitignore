@@ -1,0 +1,31 @@
+# OS-specific
+.DS_Store
+
+# Vagrant stuff
+/Vagrantfile
+/.vagrant
+*.iso
+
+# Bundler/Rubygems
+*.gem
+.bundle
+pkg/*
+tags
+/Gemfile.lock
+test/tmp/
+
+# Python
+*.pyc
+
+# Rubinius
+*.rbc
+
+# IDE junk
+.idea/*
+*.iml
+
+# Ruby Managers
+.rbenv
+.ruby-gemset
+.ruby-version
+.rvmrc
