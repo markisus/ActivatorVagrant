@@ -6,6 +6,7 @@ Vagrant.configure("2") do |config|
     ## For masterless, mount your salt file root
     config.vm.synced_folder "salt/roots/", "/srv/salt/"
     config.vm.network "forwarded_port", guest: 8888, host: 8888
+    config.vm.network "forwarded_port", guest: 9000, host: 9000
 
     ## Use all the defaults:
     config.vm.provision :salt do |salt|

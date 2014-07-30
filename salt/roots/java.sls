@@ -1,4 +1,9 @@
-java:
+java_jre:
     pkg:
-        - name: default-jre
+        - name: openjdk-6-jre
+        - installed
+
+java_jdk:
+    pkg:
+        - name: openjdk-6-jdk
         - installed
