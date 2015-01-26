@@ -4,4 +4,3 @@ base:
         - java
         - activator
         - git
-        - scalapoker
