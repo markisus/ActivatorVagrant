@@ -16,4 +16,8 @@ Vagrant.configure("2") do |config|
       salt.run_highstate = true
 
     end
+
+    config.vm.provider "virtualbox" do |vb|      
+      vb.customize ["modifyvm", :id, "--memory", "2048"]
+    end
 end
